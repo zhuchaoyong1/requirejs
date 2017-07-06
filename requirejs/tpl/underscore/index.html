@@ -1,0 +1,11 @@
+
+<%=title%>
+<ul>
+<%
+	$.each(data,function(key,value){
+%>
+	<li><%=JSON.stringify(value)%></li>
+<%
+	});
+%>
+</ul>
